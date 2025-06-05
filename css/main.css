@@ -1,0 +1,25 @@
+/* style for font and images */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.title {
+    background-color: #5e9ca0;
+    color: black;
+    padding: 1em;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
