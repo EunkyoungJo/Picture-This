@@ -25,10 +25,19 @@
 
       media="(max-width:959px)"
       sizes="100vw">
-      
+
+    <!-- for screens 960px or wider, show square image -->
+    <source srcset="
+      images/square-960.jpg 960w,
+      images/square-1280.jpg 1280W,
+      images/square-1920.jpg 1920w"
+
+      media="(min-width:960px)"
+      sizes="50vw">
+
+      <!-- fallback image -->
       <img src="images/landscape-480.jpg" alt="Museum with artwork">
-    </picture>
-    
+    </picture>  
 
   </header>
 </body>
