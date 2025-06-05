@@ -19,8 +19,14 @@
     <picture>
     <!-- for screens smaller than 960px, show landscape image -->
     <source srcset="
-      images/"
-      <img src="images/museum.jpg" alt="placeholder">
+      images/landscape-480.jpg 480w,
+      images/landscape-960.jpg 960W,
+      images/landscape-1440.jpg 1440w"
+
+      media="(max-width:959px)"
+      sizes="100vw">
+      
+      <img src="images/landscape-480.jpg" alt="Museum with artwork">
     </picture>
     
 
